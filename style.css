@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'nav nav nav nav'
+                         'header header header header'
+                         'section section section section'
+                         'footer footer footer footer';
+grid-template-rows: 30vh 30vh 40vh 50vh;                
+}
+
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+
+header{
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+section{
+    grid-area: section;
+    background-color: brown
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgba(137, 43, 226, 0.459)
+
+}
